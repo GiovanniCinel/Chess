@@ -1,50 +1,42 @@
-# Terminal Chess
+# Project for Laboratorio di programmazione, Academic Year 2021-2022
 
-Progetto realizzato da Feild_progect:
-- Bassotto Cristian
-- Cinel Giovanni
-- Nordio Gianluca
+## Authors: Cristian Bassotto, Giovanni Cinel, Gianluca Nordio
 
-Sui file scacchiera.h e scacchiera.cpp abbiamo scritto i nomi di tutti i componenti dato che il contributo nei citati file è stato uguale da parte di tutti.
-In generale nel progetto il lavoro è stato ripartito con equità tra i componenti del gruppo.
 
-Inoltre il programma risulta funzionare al 100% e non presenta alcuna parte mancante.
+Regarding the player versus computer mode, we have decided to include the following commands.
 
-Stile seguito: https://google.github.io/styleguide/cppguide.html
+The possible combinations of letters for moves are:
+- A1 B2: to move a piece from A1 to B2
+- A1 B2 PP: to move a piece from A1 to B2 and propose a draw to the other player
+- A1 MM: to display available moves for A1
+- XX XX: to display the complete chessboard
+- HE LP: to display the commands
+- FF FF: to forfeit the game
+The letter format does not affect the commands (a = A).
 
-Per quanto riguarda il giocatore contro computer abbiamo deciso di inserire i seguenti comandi.
+This message can also be viewed within the program by typing HE LP.
 
-Le possibili combinazioni di lettere per le mosse sono:
-- A1 B2 : per spostare una pedina da A1 a B2           
-- A1 B2 PP: per spostare una pedina da A1 a B2 e chiedere patta all'altro giocatore       
-- A1 MM : per visualizzare le mosse disponibili per A1 
-- XX XX : per visualizzare la scacchiera completa      
-- HE LP : per visualizzare i comandi                   
-- FF FF : per lasciare il gioco                        
-Il formato delle lettere non influisce (a = A)
-
-Questo messaggio è anche visualizzabile all'interno del programma scrivendo HE LP.
-
-Il programma verifica che siano rispettate e rispetta in ogni caso le regole di scacchi ufficiali e indicate nei seguenti siti:
-- https://www.scuolascacchipordenone.eu/le-regole.html 
+The program verifies and respects the official chess rules indicated on the following websites:
+- https://www.scuolascacchipordenone.eu/le-regole.html
 - https://www.scuolascacchipordenone.eu/le-mosse-speciali-.html
 - https://www.scuolascacchipordenone.eu/scacco-scaccomatto-patta-.html
 
-## Compilare l'eseguibile
-Scaricare il file scacchi_definitivo.zip
+### Compiling the Executable
+Download the file scacchi_definitivo.zip
 
-Requisiti:
+Requirements:
 - cmake
 
-Con CMake
-1) Andare sulla cartella Feild_Progect e da terminale $cmake -S . -B ./build
-2) Entrare su build ($ cd build)
-3) Compilare con $ make
+With CMake
+1) Navigate to the Feild_Progect folder and from the terminal run $cmake -S . -B ./build
+2) Enter the build folder ($ cd build)
+3) Compile with $ make
 
-## Lanciare l'eseguibile
-4) Eseguire $ ./Feild_Progect
+### Running the Executable
+4) Run $ ./Feild_Progect
 
-## Descrizione iniziale progetto
+
+### Project assignment
 ![Assegnamento_scacchiera_Pagina_1](https://user-images.githubusercontent.com/72708597/210579828-b075a0f8-8f02-408f-95d3-41b63e83e32d.jpg)
 ![Assegnamento_scacchiera_Pagina_2](https://user-images.githubusercontent.com/72708597/210579850-ac9de2d6-83c4-42b5-a0ec-620f2c138fbb.jpg)
 ![Assegnamento_scacchiera_Pagina_3](https://user-images.githubusercontent.com/72708597/210579859-e0d8192c-3949-459f-b859-9598a30cb5d3.jpg)
