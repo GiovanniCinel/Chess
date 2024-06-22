@@ -1,4 +1,4 @@
-# Project for Laboratorio di programmazione, Academic Year 2021-2022
+# Project for Laboratorio di Programmazione course, Academic Year 2021-2022
 
 ## Authors: Cristian Bassotto, Giovanni Cinel, Gianluca Nordio
 
